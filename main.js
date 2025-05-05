@@ -99,3 +99,16 @@ let somar = (valor1, valor2) =>{
 
 console.log(somar(10,20))
 */
+
+// Exercicio 1 //
+
+let raio = Number(prompt("Digite o raio da esfera: "))
+ let pi = 3.14159
+ 
+ function calcularVolume(){
+     let raioFinal = Math.pow(raio, 3)
+     let volume = (4/3) * pi * raioFinal
+     alert("VOLUME = " + volume)
+ }
+ 
+ calcularVolume()
