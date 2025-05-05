@@ -126,4 +126,16 @@ let raio = Number(prompt("Digite o raio da esfera: "))
  
  total()
 
+ // Exercicio 3 //
+
+ let horas = Number(prompt("Digite quantas horas foram gastas na viagem: "))
+ let velocidadeMedia = Number(prompt("Digite a velocidade média: "))
+ let quilometrosTotais = velocidadeMedia * horas
+ let quilometrosPorLitro = 12
  
+ function calcularLitros (){
+     let litrosCombustivel = quilometrosTotais / quilometrosPorLitro
+     console.log(litrosCombustivel.toFixed(3))
+ }
+ 
+ calcularLitros()
